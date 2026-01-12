@@ -1,0 +1,22 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {
+            colors: {
+                gold: '#d4af37',
+                'gold-light': '#f0c445',
+                black: '#050505',
+                'dark-gray': '#1a1a1a',
+            },
+            fontFamily: {
+                cinzel: ['Cinzel', 'serif'],
+                lato: ['Lato', 'sans-serif'],
+            },
+        },
+    },
+    plugins: [],
+}

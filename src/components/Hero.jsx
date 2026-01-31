@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col lg:flex-row items-center justify-between min-h-screen bg-black text-white px-[5%] lg:px-[10%] overflow-hidden">
+    <section className="relative flex flex-col lg:flex-row items-center justify-center lg:justify-between min-h-screen bg-black text-white px-[5%] lg:px-[10%] overflow-hidden pt-32 lg:pt-0">
       {/* Background subtle effect */}
       <div className="absolute -top-1/2 -right-[20%] w-[800px] h-[800px] bg-[radial-gradient(circle,rgba(255,215,0,0.03)_0%,rgba(0,0,0,0)_70%)] rounded-full z-0 pointer-events-none"></div>
 
@@ -30,9 +30,15 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-5">
-          <button className="px-8 py-4 bg-gold text-black font-lato font-semibold uppercase tracking-wider hover:bg-gold-light hover:-translate-y-0.5 transition-all duration-300 rounded-lg">
+          <a
+            href="https://wa.me/22890144043?text=Je%20souhaiterais%20prendre%20un%20rendez-vous"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-gold text-black font-lato font-semibold uppercase tracking-wider hover:bg-gold-light hover:-translate-y-0.5 transition-all duration-300 rounded-lg"
+          >
             Prendre Rendez-vous
-          </button>
+          </a>
+
 
         </div>
       </div>
@@ -45,10 +51,11 @@ const Hero = () => {
           {/* Image container */}
           <div className="w-full h-full bg-dark-gray border border-[#333] flex justify-center items-center overflow-hidden">
             <img
-              src="https://placehold.co/400x550/222/d4af37?text=Pastor+Photo"
+              src="/images/alede%20kokou%20joseph.jpeg"
               alt="Pasteur"
               className="w-full h-full object-cover opacity-80"
             />
+
           </div>
         </div>
       </div>

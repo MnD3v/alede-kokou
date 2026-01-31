@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className="py-24 px-[5%] lg:px-[10%] bg-black relative overflow-hidden">
+        <section id="about" className="py-24 px-[5%] lg:px-[10%] bg-black relative overflow-hidden">
             {/* Decorative Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-20 -left-20 w-96 h-96 bg-gold/5 rounded-full blur-3xl"></div>
@@ -10,7 +10,7 @@ const About = () => {
             </div>
 
             <div className="container mx-auto relative z-10">
-                <div className="flex flex-col lg:flex-row items-center gap-16">
+                <div className="flex flex-col-reverse lg:flex-row items-center gap-16">
 
                     {/* Image Section */}
                     <div className="flex-1 w-full lg:w-1/2">
@@ -21,10 +21,11 @@ const About = () => {
                             {/* Image */}
                             <div className="relative h-[500px] bg-[#1a1a1a] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 ease-in-out">
                                 <img
-                                    src="https://placehold.co/450x600/1a1a1a/d4af37?text=Portrait+Pasteur"
+                                    src="/images/alede%20kokou%20joseph%202.jpeg"
                                     alt="Portrait du Pasteur"
                                     className="w-full h-full object-cover opacity-90"
                                 />
+
                             </div>
 
                             {/* Experience Badge */}
@@ -47,7 +48,7 @@ const About = () => {
 
                         <div className="space-y-6 font-lato text-gray-400 text-lg leading-relaxed">
                             <p>
-                                Je suis le Pasteur [Nom], passionné par la restauration des relations et le développement du potentiel humain. Mon ministère s'articule autour d'une conviction profonde : chaque individu, chaque couple, porte en lui les germes d'une destinée exceptionnelle.
+                                Je suis le Pasteur Alede Kokou Joseph, passionné par la restauration des relations et le développement du potentiel humain. Mon ministère s'articule autour d'une conviction profonde : chaque individu, chaque couple, porte en lui les germes d'une destinée exceptionnelle.
                             </p>
                             <p>
                                 À travers l'accompagnement des fiancés et des couples mariés, je m'efforce de bâtir des foyers solides. Par la formation, je vise à équiper une nouvelle génération de leaders intègres et compétents.
@@ -60,8 +61,9 @@ const About = () => {
                         {/* Signature */}
                         <div className="mt-10 pt-8 border-t border-white/10 flex flex-col lg:flex-row items-center justify-between gap-6">
                             <div className="font-cinzel text-2xl text-gold italic">
-                                Pasteur [Nom]
+                                Pasteur Alede Kokou Joseph
                             </div>
+
                             <button className="text-white font-lato text-sm uppercase tracking-widest border-b border-gold pb-1 hover:text-gold transition-colors">
                                 Lire ma biographie complète
                             </button>
